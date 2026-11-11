@@ -1,0 +1,22 @@
+{
+  "note": "soft real time: normal Linux kernel, sleep_until on steady_clock, kinematic simulation",
+  "rate_hz": 500,
+  "goals": 3,
+  "planned_ok": 3,
+  "executed": 3,
+  "final_tool_pos_err_m_max": 7.90346e-05,
+  "loop_iterations_executing": 5802,
+  "missed_deadlines": 8,
+  "wake_late_us_mean": 116.107,
+  "wake_late_us_p50": 98.309,
+  "wake_late_us_p99": 258.816,
+  "wake_late_us_max": 3711.14,
+  "status_messages": [
+    {"id": 1, "event": "planned", "ik_ok": true, "plan_ok": true, "plan_time_s": 0.00146597, "optimize_time_s": 5.2048e-05, "len_raw": 4.42696, "len_opt": 1.50047, "duration_s": 1.33926, "ok": true},
+    {"event": "done", "iterations": 669, "missed": 2},
+    {"id": 2, "event": "planned", "ik_ok": true, "plan_ok": true, "plan_time_s": 0.00256223, "optimize_time_s": 0.000816291, "len_raw": 10.6961, "len_opt": 6.56501, "duration_s": 6.84384, "ok": true},
+    {"event": "done", "iterations": 3415, "missed": 6},
+    {"id": 3, "event": "planned", "ik_ok": true, "plan_ok": true, "plan_time_s": 0.00355393, "optimize_time_s": 0.000696037, "len_raw": 8.64654, "len_opt": 4.73264, "duration_s": 3.43225, "ok": true},
+    {"event": "done", "iterations": 1718, "missed": 0}
+  ]
+}

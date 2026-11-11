@@ -1,0 +1,233 @@
+Starting >>> kinmp
+SetCTestConfiguration:BuildDirectory:/path/to/cpp-kinematics-motion-planning/build/kinmp
+UpdateCTestConfiguration  from :/path/to/cpp-kinematics-motion-planning/build/kinmp/CTestConfiguration.ini
+Parse Config file:/path/to/cpp-kinematics-motion-planning/build/kinmp/CTestConfiguration.ini
+SetCMakeVariable:CTEST_SITE:kira
+SetCMakeVariable:CTEST_SOURCE_DIRECTORY:/path/to/cpp-kinematics-motion-planning
+SetCMakeVariable:CTEST_BINARY_DIRECTORY:/path/to/cpp-kinematics-motion-planning/build/kinmp
+SetCMakeVariable:CTEST_CONFIGURE_COMMAND:"/path/to/cpp-kinematics-motion-planning/.pixi/envs/default/bin/cmake" "/path/to/cpp-kinematics-motion-planning"
+SetCMakeVariable:CTEST_TEST_TIMEOUT:10000000
+UpdateCTestConfiguration  from :/path/to/cpp-kinematics-motion-planning/build/kinmp/CTestConfiguration.ini
+Parse Config file:/path/to/cpp-kinematics-motion-planning/build/kinmp/CTestConfiguration.ini
+SetCMakeVariable:CTEST_SITE:kira
+SetCMakeVariable:CTEST_SOURCE_DIRECTORY:/path/to/cpp-kinematics-motion-planning
+SetCMakeVariable:CTEST_BINARY_DIRECTORY:/path/to/cpp-kinematics-motion-planning/build/kinmp
+SetCMakeVariable:CTEST_CONFIGURE_COMMAND:"/path/to/cpp-kinematics-motion-planning/.pixi/envs/default/bin/cmake" "/path/to/cpp-kinematics-motion-planning"
+SetCTestConfiguration:BuildDirectory:/path/to/cpp-kinematics-motion-planning/build/kinmp
+SetCTestConfiguration:SourceDirectory:/path/to/cpp-kinematics-motion-planning
+Test project /path/to/cpp-kinematics-motion-planning/build/kinmp
+Constructing a list of tests
+Done constructing a list of tests
+Updating test list for fixtures
+Added 0 tests to meet fixture requirements
+Checking test dependency graph...
+Checking test dependency graph end
+test 1
+    Start 1: test_kinematics
+
+1: Test command: /path/to/cpp-kinematics-motion-planning/.pixi/envs/default/bin/python3 "-u" "/path/to/cpp-kinematics-motion-planning/.pixi/envs/default/share/ament_cmake_test/cmake/run_test.py" "/path/to/cpp-kinematics-motion-planning/build/kinmp/test_results/kinmp/test_kinematics.gtest.xml" "--package-name" "kinmp" "--output-file" "/path/to/cpp-kinematics-motion-planning/build/kinmp/ament_cmake_gtest/test_kinematics.txt" "--command" "/path/to/cpp-kinematics-motion-planning/build/kinmp/test_kinematics" "--gtest_output=xml:/path/to/cpp-kinematics-motion-planning/build/kinmp/test_results/kinmp/test_kinematics.gtest.xml"
+1: Working Directory: /path/to/cpp-kinematics-motion-planning/build/kinmp
+1: Test timeout computed to be: 300
+1: -- run_test.py: invoking following command in '/path/to/cpp-kinematics-motion-planning/build/kinmp':
+1:  - /path/to/cpp-kinematics-motion-planning/build/kinmp/test_kinematics --gtest_output=xml:/path/to/cpp-kinematics-motion-planning/build/kinmp/test_results/kinmp/test_kinematics.gtest.xml
+1: Running main() from /home/conda/feedstock_root/build_artifacts/bld/rattler-build_gtest_1786419392/work/googletest/src/gtest_main.cc
+1: [==========] Running 5 tests from 5 test suites.
+1: [----------] Global test environment set-up.
+1: [----------] 1 test from PandaVsMuJoCo
+1: [ RUN      ] PandaVsMuJoCo.FkAndJacobianMatchOn1000RandomConfigs
+1: [       OK ] PandaVsMuJoCo.FkAndJacobianMatchOn1000RandomConfigs (600 ms)
+1: [----------] 1 test from PandaVsMuJoCo (600 ms total)
+1: 
+1: [----------] 1 test from Jacobian
+1: [ RUN      ] Jacobian.MatchesFiniteDifferencesBothChains
+1: [       OK ] Jacobian.MatchesFiniteDifferencesBothChains (54 ms)
+1: [----------] 1 test from Jacobian (54 ms total)
+1: 
+1: [----------] 1 test from Palletizer
+1: [ RUN      ] Palletizer.ToolStaysLevel
+1: [       OK ] Palletizer.ToolStaysLevel (1 ms)
+1: [----------] 1 test from Palletizer (1 ms total)
+1: 
+1: [----------] 1 test from IK
+1: [ RUN      ] IK.SuccessRateAndSolveTimeBothChains
+1: [       OK ] IK.SuccessRateAndSolveTimeBothChains (6839 ms)
+1: [----------] 1 test from IK (6839 ms total)
+1: 
+1: [----------] 1 test from Export
+1: [ RUN      ] Export.FkSamplesCsvForMatlab
+1: [       OK ] Export.FkSamplesCsvForMatlab (16 ms)
+1: [----------] 1 test from Export (16 ms total)
+1: 
+1: [----------] Global test environment tear-down
+1: [==========] 5 tests from 5 test suites ran. (7513 ms total)
+1: [  PASSED  ] 5 tests.
+1: -- run_test.py: return code 0
+1: -- run_test.py: inject classname prefix into gtest result file '/path/to/cpp-kinematics-motion-planning/build/kinmp/test_results/kinmp/test_kinematics.gtest.xml'
+1: -- run_test.py: verify result file '/path/to/cpp-kinematics-motion-planning/build/kinmp/test_results/kinmp/test_kinematics.gtest.xml'
+1/4 Test #1: test_kinematics ..................   Passed    7.78 sec
+test 2
+    Start 2: test_planner
+
+2: Test command: /path/to/cpp-kinematics-motion-planning/.pixi/envs/default/bin/python3 "-u" "/path/to/cpp-kinematics-motion-planning/.pixi/envs/default/share/ament_cmake_test/cmake/run_test.py" "/path/to/cpp-kinematics-motion-planning/build/kinmp/test_results/kinmp/test_planner.gtest.xml" "--package-name" "kinmp" "--output-file" "/path/to/cpp-kinematics-motion-planning/build/kinmp/ament_cmake_gtest/test_planner.txt" "--command" "/path/to/cpp-kinematics-motion-planning/build/kinmp/test_planner" "--gtest_output=xml:/path/to/cpp-kinematics-motion-planning/build/kinmp/test_results/kinmp/test_planner.gtest.xml"
+2: Working Directory: /path/to/cpp-kinematics-motion-planning/build/kinmp
+2: Test timeout computed to be: 300
+2: -- run_test.py: invoking following command in '/path/to/cpp-kinematics-motion-planning/build/kinmp':
+2:  - /path/to/cpp-kinematics-motion-planning/build/kinmp/test_planner --gtest_output=xml:/path/to/cpp-kinematics-motion-planning/build/kinmp/test_results/kinmp/test_planner.gtest.xml
+2: Running main() from /home/conda/feedstock_root/build_artifacts/bld/rattler-build_gtest_1786419392/work/googletest/src/gtest_main.cc
+2: [==========] Running 2 tests from 2 test suites.
+2: [----------] Global test environment set-up.
+2: [----------] 1 test from Trajectory
+2: [ RUN      ] Trajectory.RespectsLimitsAndEndpoints
+2: [       OK ] Trajectory.RespectsLimitsAndEndpoints (0 ms)
+2: [----------] 1 test from Trajectory (0 ms total)
+2: 
+2: [----------] 1 test from Planner
+2: [ RUN      ] Planner.BlockedQueriesPlannedAndShortened
+2: Error:   Random number generation already started. Changing seed now will not lead to deterministic sampling.
+2:          at line 79 in /home/conda/feedstock_root/build_artifacts/bld/rattler-build_ompl_1790352068/work/src/ompl/util/src/RandomNumbers.cpp
+2: Error:   Random number generation already started. Changing seed now will not lead to deterministic sampling.
+2:          at line 79 in /home/conda/feedstock_root/build_artifacts/bld/rattler-build_ompl_1790352068/work/src/ompl/util/src/RandomNumbers.cpp
+2: Error:   Random number generation already started. Changing seed now will not lead to deterministic sampling.
+2:          at line 79 in /home/conda/feedstock_root/build_artifacts/bld/rattler-build_ompl_1790352068/work/src/ompl/util/src/RandomNumbers.cpp
+2: Error:   Random number generation already started. Changing seed now will not lead to deterministic sampling.
+2:          at line 79 in /home/conda/feedstock_root/build_artifacts/bld/rattler-build_ompl_1790352068/work/src/ompl/util/src/RandomNumbers.cpp
+2: Error:   Random number generation already started. Changing seed now will not lead to deterministic sampling.
+2:          at line 79 in /home/conda/feedstock_root/build_artifacts/bld/rattler-build_ompl_1790352068/work/src/ompl/util/src/RandomNumbers.cpp
+2: Error:   Random number generation already started. Changing seed now will not lead to deterministic sampling.
+2:          at line 79 in /home/conda/feedstock_root/build_artifacts/bld/rattler-build_ompl_1790352068/work/src/ompl/util/src/RandomNumbers.cpp
+2: Error:   Random number generation already started. Changing seed now will not lead to deterministic sampling.
+2:          at line 79 in /home/conda/feedstock_root/build_artifacts/bld/rattler-build_ompl_1790352068/work/src/ompl/util/src/RandomNumbers.cpp
+2: Error:   Random number generation already started. Changing seed now will not lead to deterministic sampling.
+2:          at line 79 in /home/conda/feedstock_root/build_artifacts/bld/rattler-build_ompl_1790352068/work/src/ompl/util/src/RandomNumbers.cpp
+2: Error:   Random number generation already started. Changing seed now will not lead to deterministic sampling.
+2:          at line 79 in /home/conda/feedstock_root/build_artifacts/bld/rattler-build_ompl_1790352068/work/src/ompl/util/src/RandomNumbers.cpp
+2: Error:   Random number generation already started. Changing seed now will not lead to deterministic sampling.
+2:          at line 79 in /home/conda/feedstock_root/build_artifacts/bld/rattler-build_ompl_1790352068/work/src/ompl/util/src/RandomNumbers.cpp
+2: Error:   Random number generation already started. Changing seed now will not lead to deterministic sampling.
+2:          at line 79 in /home/conda/feedstock_root/build_artifacts/bld/rattler-build_ompl_1790352068/work/src/ompl/util/src/RandomNumbers.cpp
+2: Error:   Random number generation already started. Changing seed now will not lead to deterministic sampling.
+2:          at line 79 in /home/conda/feedstock_root/build_artifacts/bld/rattler-build_ompl_1790352068/work/src/ompl/util/src/RandomNumbers.cpp
+2: Error:   Random number generation already started. Changing seed now will not lead to deterministic sampling.
+2:          at line 79 in /home/conda/feedstock_root/build_artifacts/bld/rattler-build_ompl_1790352068/work/src/ompl/util/src/RandomNumbers.cpp
+2: Error:   Random number generation already started. Changing seed now will not lead to deterministic sampling.
+2:          at line 79 in /home/conda/feedstock_root/build_artifacts/bld/rattler-build_ompl_1790352068/work/src/ompl/util/src/RandomNumbers.cpp
+2: Error:   Random number generation already started. Changing seed now will not lead to deterministic sampling.
+2:          at line 79 in /home/conda/feedstock_root/build_artifacts/bld/rattler-build_ompl_1790352068/work/src/ompl/util/src/RandomNumbers.cpp
+2: Error:   Random number generation already started. Changing seed now will not lead to deterministic sampling.
+2:          at line 79 in /home/conda/feedstock_root/build_artifacts/bld/rattler-build_ompl_1790352068/work/src/ompl/util/src/RandomNumbers.cpp
+2: Error:   Random number generation already started. Changing seed now will not lead to deterministic sampling.
+2:          at line 79 in /home/conda/feedstock_root/build_artifacts/bld/rattler-build_ompl_1790352068/work/src/ompl/util/src/RandomNumbers.cpp
+2: Error:   Random number generation already started. Changing seed now will not lead to deterministic sampling.
+2:          at line 79 in /home/conda/feedstock_root/build_artifacts/bld/rattler-build_ompl_1790352068/work/src/ompl/util/src/RandomNumbers.cpp
+2: Error:   Random number generation already started. Changing seed now will not lead to deterministic sampling.
+2:          at line 79 in /home/conda/feedstock_root/build_artifacts/bld/rattler-build_ompl_1790352068/work/src/ompl/util/src/RandomNumbers.cpp
+2: [       OK ] Planner.BlockedQueriesPlannedAndShortened (226 ms)
+2: [----------] 1 test from Planner (226 ms total)
+2: 
+2: [----------] Global test environment tear-down
+2: [==========] 2 tests from 2 test suites ran. (227 ms total)
+2: [  PASSED  ] 2 tests.
+2: -- run_test.py: return code 0
+2: -- run_test.py: inject classname prefix into gtest result file '/path/to/cpp-kinematics-motion-planning/build/kinmp/test_results/kinmp/test_planner.gtest.xml'
+2: -- run_test.py: verify result file '/path/to/cpp-kinematics-motion-planning/build/kinmp/test_results/kinmp/test_planner.gtest.xml'
+2/4 Test #2: test_planner .....................   Passed    0.45 sec
+test 3
+    Start 3: test_chomp
+
+3: Test command: /path/to/cpp-kinematics-motion-planning/.pixi/envs/default/bin/python3 "-u" "/path/to/cpp-kinematics-motion-planning/.pixi/envs/default/share/ament_cmake_test/cmake/run_test.py" "/path/to/cpp-kinematics-motion-planning/build/kinmp/test_results/kinmp/test_chomp.gtest.xml" "--package-name" "kinmp" "--output-file" "/path/to/cpp-kinematics-motion-planning/build/kinmp/ament_cmake_gtest/test_chomp.txt" "--command" "/path/to/cpp-kinematics-motion-planning/build/kinmp/test_chomp" "--gtest_output=xml:/path/to/cpp-kinematics-motion-planning/build/kinmp/test_results/kinmp/test_chomp.gtest.xml"
+3: Working Directory: /path/to/cpp-kinematics-motion-planning/build/kinmp
+3: Test timeout computed to be: 600
+3: -- run_test.py: invoking following command in '/path/to/cpp-kinematics-motion-planning/build/kinmp':
+3:  - /path/to/cpp-kinematics-motion-planning/build/kinmp/test_chomp --gtest_output=xml:/path/to/cpp-kinematics-motion-planning/build/kinmp/test_results/kinmp/test_chomp.gtest.xml
+3: Running main() from /home/conda/feedstock_root/build_artifacts/bld/rattler-build_gtest_1786419392/work/googletest/src/gtest_main.cc
+3: [==========] Running 2 tests from 1 test suite.
+3: [----------] Global test environment set-up.
+3: [----------] 2 tests from Chomp
+3: [ RUN      ] Chomp.SimpleCaseCostDropsEndpointsFixedCollisionFree
+3: [       OK ] Chomp.SimpleCaseCostDropsEndpointsFixedCollisionFree (179 ms)
+3: [ RUN      ] Chomp.BenchmarkOnTwentyBlockedQueries
+3: Error:   Random number generation already started. Changing seed now will not lead to deterministic sampling.
+3:          at line 79 in /home/conda/feedstock_root/build_artifacts/bld/rattler-build_ompl_1790352068/work/src/ompl/util/src/RandomNumbers.cpp
+3: Error:   Random number generation already started. Changing seed now will not lead to deterministic sampling.
+3:          at line 79 in /home/conda/feedstock_root/build_artifacts/bld/rattler-build_ompl_1790352068/work/src/ompl/util/src/RandomNumbers.cpp
+3: Error:   Random number generation already started. Changing seed now will not lead to deterministic sampling.
+3:          at line 79 in /home/conda/feedstock_root/build_artifacts/bld/rattler-build_ompl_1790352068/work/src/ompl/util/src/RandomNumbers.cpp
+3: Error:   Random number generation already started. Changing seed now will not lead to deterministic sampling.
+3:          at line 79 in /home/conda/feedstock_root/build_artifacts/bld/rattler-build_ompl_1790352068/work/src/ompl/util/src/RandomNumbers.cpp
+3: Error:   Random number generation already started. Changing seed now will not lead to deterministic sampling.
+3:          at line 79 in /home/conda/feedstock_root/build_artifacts/bld/rattler-build_ompl_1790352068/work/src/ompl/util/src/RandomNumbers.cpp
+3: Error:   Random number generation already started. Changing seed now will not lead to deterministic sampling.
+3:          at line 79 in /home/conda/feedstock_root/build_artifacts/bld/rattler-build_ompl_1790352068/work/src/ompl/util/src/RandomNumbers.cpp
+3: Error:   Random number generation already started. Changing seed now will not lead to deterministic sampling.
+3:          at line 79 in /home/conda/feedstock_root/build_artifacts/bld/rattler-build_ompl_1790352068/work/src/ompl/util/src/RandomNumbers.cpp
+3: Error:   Random number generation already started. Changing seed now will not lead to deterministic sampling.
+3:          at line 79 in /home/conda/feedstock_root/build_artifacts/bld/rattler-build_ompl_1790352068/work/src/ompl/util/src/RandomNumbers.cpp
+3: Error:   Random number generation already started. Changing seed now will not lead to deterministic sampling.
+3:          at line 79 in /home/conda/feedstock_root/build_artifacts/bld/rattler-build_ompl_1790352068/work/src/ompl/util/src/RandomNumbers.cpp
+3: Error:   Random number generation already started. Changing seed now will not lead to deterministic sampling.
+3:          at line 79 in /home/conda/feedstock_root/build_artifacts/bld/rattler-build_ompl_1790352068/work/src/ompl/util/src/RandomNumbers.cpp
+3: Error:   Random number generation already started. Changing seed now will not lead to deterministic sampling.
+3:          at line 79 in /home/conda/feedstock_root/build_artifacts/bld/rattler-build_ompl_1790352068/work/src/ompl/util/src/RandomNumbers.cpp
+3: Error:   Random number generation already started. Changing seed now will not lead to deterministic sampling.
+3:          at line 79 in /home/conda/feedstock_root/build_artifacts/bld/rattler-build_ompl_1790352068/work/src/ompl/util/src/RandomNumbers.cpp
+3: Error:   Random number generation already started. Changing seed now will not lead to deterministic sampling.
+3:          at line 79 in /home/conda/feedstock_root/build_artifacts/bld/rattler-build_ompl_1790352068/work/src/ompl/util/src/RandomNumbers.cpp
+3: Error:   Random number generation already started. Changing seed now will not lead to deterministic sampling.
+3:          at line 79 in /home/conda/feedstock_root/build_artifacts/bld/rattler-build_ompl_1790352068/work/src/ompl/util/src/RandomNumbers.cpp
+3: Error:   Random number generation already started. Changing seed now will not lead to deterministic sampling.
+3:          at line 79 in /home/conda/feedstock_root/build_artifacts/bld/rattler-build_ompl_1790352068/work/src/ompl/util/src/RandomNumbers.cpp
+3: Error:   Random number generation already started. Changing seed now will not lead to deterministic sampling.
+3:          at line 79 in /home/conda/feedstock_root/build_artifacts/bld/rattler-build_ompl_1790352068/work/src/ompl/util/src/RandomNumbers.cpp
+3: Error:   Random number generation already started. Changing seed now will not lead to deterministic sampling.
+3:          at line 79 in /home/conda/feedstock_root/build_artifacts/bld/rattler-build_ompl_1790352068/work/src/ompl/util/src/RandomNumbers.cpp
+3: Error:   Random number generation already started. Changing seed now will not lead to deterministic sampling.
+3:          at line 79 in /home/conda/feedstock_root/build_artifacts/bld/rattler-build_ompl_1790352068/work/src/ompl/util/src/RandomNumbers.cpp
+3: Error:   Random number generation already started. Changing seed now will not lead to deterministic sampling.
+3:          at line 79 in /home/conda/feedstock_root/build_artifacts/bld/rattler-build_ompl_1790352068/work/src/ompl/util/src/RandomNumbers.cpp
+3: [       OK ] Chomp.BenchmarkOnTwentyBlockedQueries (14789 ms)
+3: [----------] 2 tests from Chomp (14969 ms total)
+3: 
+3: [----------] Global test environment tear-down
+3: [==========] 2 tests from 1 test suite ran. (14969 ms total)
+3: [  PASSED  ] 2 tests.
+3: -- run_test.py: return code 0
+3: -- run_test.py: inject classname prefix into gtest result file '/path/to/cpp-kinematics-motion-planning/build/kinmp/test_results/kinmp/test_chomp.gtest.xml'
+3: -- run_test.py: verify result file '/path/to/cpp-kinematics-motion-planning/build/kinmp/test_results/kinmp/test_chomp.gtest.xml'
+3/4 Test #3: test_chomp .......................   Passed   15.19 sec
+test 4
+    Start 4: test_node
+
+4: Test command: /path/to/cpp-kinematics-motion-planning/.pixi/envs/default/bin/python3 "-u" "/path/to/cpp-kinematics-motion-planning/.pixi/envs/default/share/ament_cmake_test/cmake/run_test.py" "/path/to/cpp-kinematics-motion-planning/build/kinmp/test_results/kinmp/test_node.gtest.xml" "--package-name" "kinmp" "--output-file" "/path/to/cpp-kinematics-motion-planning/build/kinmp/ament_cmake_gtest/test_node.txt" "--command" "/path/to/cpp-kinematics-motion-planning/build/kinmp/test_node" "--gtest_output=xml:/path/to/cpp-kinematics-motion-planning/build/kinmp/test_results/kinmp/test_node.gtest.xml"
+4: Working Directory: /path/to/cpp-kinematics-motion-planning/build/kinmp
+4: Test timeout computed to be: 300
+4: -- run_test.py: invoking following command in '/path/to/cpp-kinematics-motion-planning/build/kinmp':
+4:  - /path/to/cpp-kinematics-motion-planning/build/kinmp/test_node --gtest_output=xml:/path/to/cpp-kinematics-motion-planning/build/kinmp/test_results/kinmp/test_node.gtest.xml
+4: Running main() from /home/conda/feedstock_root/build_artifacts/bld/rattler-build_gtest_1786419392/work/googletest/src/gtest_main.cc
+4: [==========] Running 1 test from 1 test suite.
+4: [----------] Global test environment set-up.
+4: [----------] 1 test from PlanningNode
+4: [ RUN      ] PlanningNode.ThreeGoalsPlannedAndExecutedInRealTimeLoop
+4: Error:   Random number generation already started. Changing seed now will not lead to deterministic sampling.
+4:          at line 79 in /home/conda/feedstock_root/build_artifacts/bld/rattler-build_ompl_1790352068/work/src/ompl/util/src/RandomNumbers.cpp
+4: Error:   Random number generation already started. Changing seed now will not lead to deterministic sampling.
+4:          at line 79 in /home/conda/feedstock_root/build_artifacts/bld/rattler-build_ompl_1790352068/work/src/ompl/util/src/RandomNumbers.cpp
+4: [       OK ] PlanningNode.ThreeGoalsPlannedAndExecutedInRealTimeLoop (11954 ms)
+4: [----------] 1 test from PlanningNode (11954 ms total)
+4: 
+4: [----------] Global test environment tear-down
+4: [==========] 1 test from 1 test suite ran. (11955 ms total)
+4: [  PASSED  ] 1 test.
+4: -- run_test.py: return code 0
+4: -- run_test.py: inject classname prefix into gtest result file '/path/to/cpp-kinematics-motion-planning/build/kinmp/test_results/kinmp/test_node.gtest.xml'
+4: -- run_test.py: verify result file '/path/to/cpp-kinematics-motion-planning/build/kinmp/test_results/kinmp/test_node.gtest.xml'
+4/4 Test #4: test_node ........................   Passed   12.45 sec
+
+100% tests passed out of 4
+
+Label Time Summary:
+gtest    =  35.87 sec*proc (4 tests)
+
+Total Test time (real) =  35.88 sec
+Finished <<< kinmp [36.0s]
+
+Summary: 1 package finished [36.4s]

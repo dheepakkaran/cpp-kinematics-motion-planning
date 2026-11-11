@@ -1,0 +1,15 @@
+{
+  "optimizer": "CHOMP-style covariant gradient descent, N=50, eta=0.1, w_smooth=1, w_obs=10, eps=0.05 m, max_iters=300",
+  "smoothness_cost": "0.5 * sum ||q[i-1]-2q[i]+q[i+1]||^2 after resampling each path to N waypoints (rad^2)",
+  "clearance": "min signed distance sphere surface -> box over the path every 0.01 rad (m); negative = penetration",
+  "queries": 20,
+  "rrt_solved": 20,
+  "chomp_cost_decreased_from_raw": 20,
+  "chomp_cost_decreased_from_shortcut": 20,
+  "variants": {
+    "chomp_from_raw": {"dense_valid": 20, "smoothness_median": 0.0932137, "length_rad_median": 11.7047, "min_clearance_m_median": 0.0619104, "min_clearance_m_worst": 0.00358835, "time_ms_median": 356.95},
+    "rrtconnect_raw": {"dense_valid": 20, "smoothness_median": 0.12567, "length_rad_median": 12.8451, "min_clearance_m_median": 0.017838, "min_clearance_m_worst": 7.06357e-05, "time_ms_median": 0},
+    "shortcut": {"dense_valid": 20, "smoothness_median": 0.0466485, "length_rad_median": 10.0401, "min_clearance_m_median": 0.0300004, "min_clearance_m_worst": 7.04591e-05, "time_ms_median": 0.976737},
+    "shortcut_then_chomp": {"dense_valid": 20, "smoothness_median": 0.0235892, "length_rad_median": 9.40506, "min_clearance_m_median": 0.0499565, "min_clearance_m_worst": 0.00358835, "time_ms_median": 364.399}
+  }
+}

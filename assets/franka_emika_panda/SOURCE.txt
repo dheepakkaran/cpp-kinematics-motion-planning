@@ -1,0 +1,1 @@
+- assets/franka_emika_panda: copied from github.com/google-deepmind/mujoco_menagerie (franka_emika_panda/panda_nohand.xml + meshes it uses), Apache-2.0, see LICENSE. Unmodified.

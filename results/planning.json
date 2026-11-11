@@ -1,0 +1,19 @@
+{
+  "planner": "OMPL RRTConnect, joint space (7-DOF Panda), timeout 5 s",
+  "optimizer": "OMPL PathSimplifier reduceVertices + partialShortcutPath + reduceVertices, then trapezoidal time parameterization",
+  "collision_model": "spheres r=0.06 m every 0.05 m along links vs 3 boxes; no self-collision",
+  "queries_blocked_straight_line": 20,
+  "solved_and_valid": 20,
+  "plan_time_ms_median": 2.17509,
+  "plan_time_ms_max": 8.95056,
+  "optimize_time_ms_median": 0.946288,
+  "path_len_rad_raw_median": 12.8451,
+  "path_len_rad_opt_median": 10.0401,
+  "path_len_rad_raw_total": 266.919,
+  "path_len_rad_opt_total": 196.46,
+  "waypoints_raw_median": 6.5,
+  "waypoints_opt_median": 4,
+  "traj_duration_s_median": 8.11847,
+  "vmax_rad_s": 1,
+  "amax_rad_s2": 2
+}

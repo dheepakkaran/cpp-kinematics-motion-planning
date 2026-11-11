@@ -1,0 +1,25 @@
+[workspace]
+name = "cpp-kinematics-motion-planning"
+channels = ["robostack-jazzy", "conda-forge"]
+platforms = ["linux-64"]
+
+[dependencies]
+ros-jazzy-rclcpp = "*"
+ros-jazzy-sensor-msgs = "*"
+ros-jazzy-trajectory-msgs = "*"
+ros-jazzy-ament-cmake = "*"
+ros-jazzy-ament-cmake-gtest = "*"
+colcon-common-extensions = "*"
+compilers = "*"
+cmake = "*"
+ninja = "*"
+pkg-config = "*"
+libmujoco = ">=3.16.0,<4"
+eigen = ">=3.4"
+ompl = "*"
+
+[feature.octave.dependencies]
+octave = "*"
+
+[environments]
+octave = { features = ["octave"], no-default-feature = true }

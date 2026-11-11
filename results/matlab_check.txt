@@ -1,0 +1,5 @@
+engine: MATLAB 26.2.0.3433840 (R2026b) Update 1
+csv: fk_samples.csv (200 rows)
+panda: samples=100 fk_pos_max_err_m=2.483e-16 fk_R_max_abs_err=3.331e-16 jacobian_max_abs_err_vs_cpp=3.331e-16 jacobian_max_abs_err_vs_matlab_fd=2.230e-10
+palletizer: samples=100 fk_pos_max_err_m=3.331e-16 fk_R_max_abs_err=3.331e-16 jacobian_max_abs_err_vs_cpp=4.441e-16 jacobian_max_abs_err_vs_matlab_fd=3.965e-10
+# Run by Dheepak in MATLAB Online, 2026-11-09, via matlab/online-upload/run_kinmp_check.m (writes the same fk_samples.csv, then runs check_kinematics.m unchanged); copied from the Command Window.

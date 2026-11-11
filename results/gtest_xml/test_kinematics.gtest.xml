@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites tests="5" failures="0" disabled="0" errors="0" time="7.513" timestamp="2026-11-09T14:41:51.005" name="AllTests">
+  <testsuite name="PandaVsMuJoCo" tests="1" failures="0" disabled="0" skipped="0" errors="0" time="0.6" timestamp="2026-11-09T14:41:51.005">
+    <testcase name="FkAndJacobianMatchOn1000RandomConfigs" file="/path/to/cpp-kinematics-motion-planning/test/test_kinematics.cpp" line="62" status="run" result="completed" time="0.6" timestamp="2026-11-09T14:41:51.005" classname="kinmp.PandaVsMuJoCo" />
+  </testsuite>
+  <testsuite name="Jacobian" tests="1" failures="0" disabled="0" skipped="0" errors="0" time="0.054" timestamp="2026-11-09T14:41:51.606">
+    <testcase name="MatchesFiniteDifferencesBothChains" file="/path/to/cpp-kinematics-motion-planning/test/test_kinematics.cpp" line="104" status="run" result="completed" time="0.054" timestamp="2026-11-09T14:41:51.606" classname="kinmp.Jacobian" />
+  </testsuite>
+  <testsuite name="Palletizer" tests="1" failures="0" disabled="0" skipped="0" errors="0" time="0.001" timestamp="2026-11-09T14:41:51.660">
+    <testcase name="ToolStaysLevel" file="/path/to/cpp-kinematics-motion-planning/test/test_kinematics.cpp" line="117" status="run" result="completed" time="0.001" timestamp="2026-11-09T14:41:51.660" classname="kinmp.Palletizer" />
+  </testsuite>
+  <testsuite name="IK" tests="1" failures="0" disabled="0" skipped="0" errors="0" time="6.839" timestamp="2026-11-09T14:41:51.662">
+    <testcase name="SuccessRateAndSolveTimeBothChains" file="/path/to/cpp-kinematics-motion-planning/test/test_kinematics.cpp" line="130" status="run" result="completed" time="6.839" timestamp="2026-11-09T14:41:51.662" classname="kinmp.IK" />
+  </testsuite>
+  <testsuite name="Export" tests="1" failures="0" disabled="0" skipped="0" errors="0" time="0.016" timestamp="2026-11-09T14:41:58.502">
+    <testcase name="FkSamplesCsvForMatlab" file="/path/to/cpp-kinematics-motion-planning/test/test_kinematics.cpp" line="163" status="run" result="completed" time="0.016" timestamp="2026-11-09T14:41:58.502" classname="kinmp.Export" />
+  </testsuite>
+</testsuites>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites tests="2" failures="0" disabled="0" errors="0" time="0.227" timestamp="2026-11-09T14:41:58.750" name="AllTests">
+  <testsuite name="Trajectory" tests="1" failures="0" disabled="0" skipped="0" errors="0" time="0." timestamp="2026-11-09T14:41:58.750">
+    <testcase name="RespectsLimitsAndEndpoints" file="/path/to/cpp-kinematics-motion-planning/test/test_planner.cpp" line="28" status="run" result="completed" time="0." timestamp="2026-11-09T14:41:58.750" classname="kinmp.Trajectory" />
+  </testsuite>
+  <testsuite name="Planner" tests="1" failures="0" disabled="0" skipped="0" errors="0" time="0.226" timestamp="2026-11-09T14:41:58.751">
+    <testcase name="BlockedQueriesPlannedAndShortened" file="/path/to/cpp-kinematics-motion-planning/test/test_planner.cpp" line="47" status="run" result="completed" time="0.226" timestamp="2026-11-09T14:41:58.751" classname="kinmp.Planner" />
+  </testsuite>
+</testsuites>

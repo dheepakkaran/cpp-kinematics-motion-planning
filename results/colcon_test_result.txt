@@ -1,0 +1,7 @@
+build/kinmp/Testing/20261109-1941/Test.xml: 4 tests, 0 errors, 0 failures, 0 skipped
+build/kinmp/test_results/kinmp/test_chomp.gtest.xml: 2 tests, 0 errors, 0 failures, 0 skipped
+build/kinmp/test_results/kinmp/test_kinematics.gtest.xml: 5 tests, 0 errors, 0 failures, 0 skipped
+build/kinmp/test_results/kinmp/test_node.gtest.xml: 1 test, 0 errors, 0 failures, 0 skipped
+build/kinmp/test_results/kinmp/test_planner.gtest.xml: 2 tests, 0 errors, 0 failures, 0 skipped
+
+Summary: 14 tests, 0 errors, 0 failures, 0 skipped

@@ -1,0 +1,8 @@
+{
+  "ik_palletizer": {"targets": 1000, "success": 989, "success_first_seed": 541, "max_attempts": 10, "median_ms": 0.106403, "p95_ms": 7.18911, "max_pos_err_m_of_successes": 9.9743e-05, "tol_pos_m": 1e-4, "tol_rot_rad": 1e-3},
+  "ik_panda": {"targets": 1000, "success": 991, "success_first_seed": 457, "max_attempts": 10, "median_ms": 3.48751, "p95_ms": 18.9142, "max_pos_err_m_of_successes": 9.99802e-05, "tol_pos_m": 1e-4, "tol_rot_rad": 1e-3},
+  "jacobian_vs_fd_palletizer": {"samples": 1000, "h": 1e-6, "max_abs_err": 4.35813e-10},
+  "jacobian_vs_fd_panda": {"samples": 1000, "h": 1e-6, "max_abs_err": 2.46641e-10},
+  "palletizer_tool_tilt_max_rad": 2.58096e-08,
+  "panda_vs_mujoco": {"samples": 1000, "fk_max_pos_err_m": 1.04185e-15, "fk_max_rot_err_rad": 3.49198e-08, "jacobian_max_abs_err": 3.77476e-15}
+}
