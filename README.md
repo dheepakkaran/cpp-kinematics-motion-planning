@@ -18,6 +18,10 @@ differences and MATLAB.
 ![matlab](https://img.shields.io/badge/MATLAB-R2026b%20check-0076A8)
 ![tests](https://img.shields.io/badge/GoogleTest-10%20passing-22c55e)
 
+<a href="https://dheepakkaran.github.io/cpp-kinematics-motion-planning/#overview"><img src="docs/media/overview.webp" alt="35-second overview: the arm plans a path around a pillar and shelf; it knows where its hand is, reaches goals, plans around obstacles and moves on a strict clock" width="100%"></a>
+
+<sub>35-second overview (silent preview). <a href="https://dheepakkaran.github.io/cpp-kinematics-motion-planning/#overview">Watch it with sound on the project page →</a></sub>
+
 </div>
 
 > **Simulation only.** The node drives a kinematic simulation; no dynamics and no hardware. Independent learning project.
